@@ -1,5 +1,13 @@
 var canvas=document.getElementById ("myCanvas");
 var ctx=canvas.getContext("2d");
+    
+    
+   
+ctx.beginPath();
+ctx.strokeStyle="grey";
+ctx.lineWidth=4;
+ctx.rect(100,120,430,200);
+ctx.stroke();
 
  color="blue";
     ctx.beginPath();
@@ -38,3 +46,5 @@ var ctx=canvas.getContext("2d");
     ctx.lineWidth=2;
     ctx.arc(350,250,40,0,2*Math.PI);
     ctx.stroke();
+
+
